@@ -1,0 +1,39 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	user-select: none;
+}
+body{
+	background: lightblue;
+}
+.content-hoyos{
+	position: absolute;
+	margin: auto;
+	top: 0px;
+	left: 0px;
+   	width: 90vmin;
+   	margin-top: 60px;
+}
+.content-hoyos .topo{
+	float: left;
+	width: 30vmin;
+	height: 30vmin;
+	line-height: 30vmin;
+	text-align: center;
+	cursor: pointer;
+}
+.content-datos{
+	display: flex;
+	margin: 10px;
+	align-items: center;
+}
+.content-datos .content-puntaje{
+	font-size: 20px;
+	margin-left: 20px;
+}
+.content-datos .btn{
+	padding: 5px;
+	font-size: 18px;
+	margin-left: 20px;
+	cursor: pointer;
+}
